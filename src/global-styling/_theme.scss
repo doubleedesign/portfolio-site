@@ -1,0 +1,18 @@
+// Colour scheme
+$theme-colors: (
+	'primary'	: #44318d,
+	'secondary'	: #2a1b3d,
+	'accent'	: #ff0054,
+	'background': #f7f3f9
+);
+$body-color: map-get($theme-colors, secondary);
+
+// Typography variables
+$body-font-family: 'Demos Next W01', serif;
+$heading-font-family: $body-font-family;
+$fw-normal: 400;
+$fw-bold: 700;
+$font-size-sm: rem-calc(14);
+
+// Misc variables
+$global-transition: all 0.3s ease;
